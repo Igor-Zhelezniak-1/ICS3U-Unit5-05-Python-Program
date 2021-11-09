@@ -35,8 +35,9 @@ def adress_1(
 
 
 def main():
-    # input
-
+    # This is main function
+    
+    print("This program formats your address to a mailing address.")
     # input
     name = input("Enter your full name: ")
 
@@ -51,11 +52,11 @@ def main():
         else:
             print("Invalid input")
 
-    integer2 = input("Enter your street number :")
-    name_of_street = input("Enter your street name AND type ex: Main St: ")
-    city = input("Enter your city name: ")
-    province = input("Enter your province (as an abreviation ex: ON, BC ect.) :")
-    pc = input("Enter your postal code (ex: A1B 2C3): ")
+    integer2 = input("Enter your street number:")
+    name_of_street = input("Enter your street name AND type(Main St, Express Pkwy...): ")
+    city = input("Enter your city: ")
+    province = input("Enter your province (as an abreviation, ex: ON, BC...):")
+    pc = input("Enter your postal code (123 456): ")
 
     try:
         number_of_house_from_user = int(integer2)
